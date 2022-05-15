@@ -1,0 +1,86 @@
+<!--
+<tickers>
+    <index | stock | crypto>
+        <name></>   Name of company (or equivalent).
+        <symbol></> Symbol of ticker
+    </>
+</>
+-->
+
+<tickers>
+    <!-- Market Indexes -->
+    <index>
+        <!-- S&P500 Index -->
+        <name>S&amp;P500</name>
+        <symbol>^GSPC</symbol>
+    </index>
+    <index>
+        <!-- NASDAQ Composite Index -->
+        <name>Nasdaq</name>
+        <symbol>^IXIC</symbol>
+    </index>
+    <index>
+        <!-- Dow Jones Index -->
+        <name>Dow Jones</name>
+        <symbol>^DJI</symbol>
+    </index>
+
+    <!-- Company Stocks -->
+    <stock>
+        <!-- Alphabet Inc. [Common Stock] -->
+        <name>Alphabet</name>
+        <symbol>GOOGL</symbol>
+    </stock>
+    <stock>
+        <!-- Amazon.com, Inc. -->
+        <name>Amazon</name>
+        <symbol>AMZN</symbol>
+    </stock>
+    <stock>
+        <!-- Tesla, Inc. -->
+        <name>Tesla</name>
+        <symbol>TSLA</symbol>
+    </stock>
+    <stock>
+        <!-- Meta Platforms, Inc. -->
+        <name>Meta</name>
+        <symbol>FB</symbol>
+    </stock>
+
+    <!-- Crypto Currencies -->
+    <crypto>
+        <!-- Bitcoin -->
+        <name>Bitcoin</name>
+        <symbol>BTC-USD</symbol>
+    </crypto>
+    <crypto>
+        <!-- Ethereum -->
+        <name>Ethereum</name>
+        <symbol>ETH-USD</symbol>
+    </crypto>
+    <crypto>
+        <!-- Binance Coin -->
+        <name>Binance</name>
+        <symbol>BNB-USD</symbol>
+    </crypto>
+    <crypto>
+        <!-- XRP -->
+        <name>XRP</name>
+        <symbol>XRP-USD</symbol>
+    </crypto>
+    <crypto>
+        <!-- Cardano -->
+        <name>Cardano</name>
+        <symbol>ADA-USD</symbol>
+    </crypto>
+    <crypto>
+        <!-- Solana -->
+        <name>Solana</name>
+        <symbol>SOL-USD</symbol>
+    </crypto>
+    <crypto>
+        <!-- Litecoin -->
+        <name>Litecoin</name>
+        <symbol>LTC-USD</symbol>
+    </crypto>
+</tickers>

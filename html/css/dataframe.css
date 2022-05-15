@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+}
+
+.dataframe {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.dataframe th, .dataframe td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.dataframe td {
+    text-align: right;
+}
+
+.dataframe th {
+    text-align: center;
+}
+
+.dataframe tr th {
+    text-align: right;
+}
